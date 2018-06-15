@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Nothing+You+Could+Do" rel="stylesheet">
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="logo">
+          <a class="logo__link" href="/">
+              <h1 class="logo__title">Bren Murrell</h1>
+              <h3 class="logo__subtitle">Full Stack Developer</h3>
+          </a>
+      </div>      <ul class="nav nav--main">
+      </ul>
+    </header>
+<section class="module module--styleguide">
+    <h1>Typography and general markup stuff</h1>
+    <h2>Headings</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h2>Paragraphs and suchlike</h2>
+    <p>Paragraph text</p>
+    <blockquote>"This is a a block quote"</blockquote>
+    <ul>
+        <li>Unordered list item</li>
+        <li>Unordered list item</li>
+        <li>Unordered list item</li>
+    </ul>
+    <p>Here is some <strong>bold / strong text</strong> and some <em>Emphasis text</em>, some <a href="#">link stuff</a> and then a mixture of <strong><em>BOTH!</em></strong></p>
+    <ol>
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+        <li>Ordered list item</li>
+    </ol>
+    <pre>
+    P r e f o r m a t t e d  T e x t
+    </pre>
+    <h2>Buttons</h2>
+    <button class="c-btn c-btn--pri"><a href="index.html" class="c-btn__link">Button</a></button>
+    <button class="c-btn c-btn--sec"><a href="contact.html" class="c-btn__link">Alternate button</a></button>
+    <h2>Forms</h2>
+
+    <form>
+        <div class="field">
+            <label for="textfield">Text field</label>
+            <input type="text" value="Text input" id="textfield">
+        </div>
+        <div class="field field--select">
+            <label for="selectbox">Select field</label>
+            <select id="selectbox">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+        </div>
+        <div class="field field--textarea">
+            <label for="textarea">Textarea</label>        
+            <textarea id="textarea"></textarea>
+        </div>
+    </form>
+</section>
+</body>
+</html>
+<h1>Modules</h1>
+<h2>Hero</h2>
+<div class="module module--hero">
+    <div class="hero" style="background-image: url('/img/covers/coffee.jpg')">
+        <div class="hero__content">
+            <h1 class="hero__title">Bren Murrell</h1>
+            <h3 class="hero__subtitle">Full Stack Web Developer</h3>
+            <div class="hero__buttons">
+
+                <button class="c-btn c-btn--pri">
+                    <a class="c-btn__link" href="/portfolio.html">Portfolio</a>
+                </button> 
+                <button class="c-btn c-btn--pri">
+                    <a class="c-btn__link" href="/styleguide.html">Styleguide</a>
+                </button> 
+                
+            </div>
+        </div>
+    </div>
+</div><h2>Gallery - with images</h2>
+<section class="module">
+    <div class="gallery">
+            <figure class="c-figure">
+                <img class="c-figure__image" src="http://lorempixel.com/800/450" title="16:9 image" />
+                <figcaption class="c-figure__caption">This is a test caption</figcaption>
+            </figure>            <figure class="c-figure">
+                <img class="c-figure__image" src="http://lorempixel.com/400/225" title="16:9 image" />
+                <figcaption class="c-figure__caption">A caption on another image</figcaption>
+            </figure>            <figure class="c-figure">
+                <img class="c-figure__image" src="http://lorempixel.com/1200/675" title="16:9 image" />
+                <figcaption class="c-figure__caption">This image is the third one. It&#x27;s slightly longer than the other two.</figcaption>
+            </figure>        
+    </div>
+</section>
+  <footer class="c-footer"></footer>
+
+</body>
+</html>
